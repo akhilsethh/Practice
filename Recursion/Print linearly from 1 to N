@@ -1,0 +1,11 @@
+void f(i, N){
+    if(i > N)
+        return;
+    print(i);
+    f(i + 1, N);
+}
+
+main(){
+    int N; cin >> N;
+    f(1, N);
+}
