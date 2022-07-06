@@ -1,0 +1,12 @@
+void(i, n)
+{
+if(i > n)           //Base Condition
+  return;
+print("Akhil");
+f(i + 1, n);
+}
+
+main(){
+int n; cin >> n;
+f(1, n);
+}
